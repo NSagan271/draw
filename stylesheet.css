@@ -1,0 +1,66 @@
+body{
+  padding:0px;
+  overflow:hidden;
+  height:100%;
+  width:100%;
+}
+#canvas, canvas{
+  z-index:1;
+  position:absolute;
+}
+.btn{
+  position:relative;
+  z-index:2;
+  border-radius:10px;
+  border: 2px solid black;
+  display:inline-block;
+  height:36px;
+  width:36px;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor:pointer;
+}
+.active{
+  background-color:gray;
+}
+#draw{
+  background-image: url(https://image.flaticon.com/icons/png/128/34/34022.png);
+}
+#erase{
+  background-image: url(http://icons.iconarchive.com/icons/icons8/windows-8/128/Editing-Eraser-icon.png);
+}
+#clear{
+  background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/16399-200.png);
+}
+#color{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/5f/95/12/5f9512ddacc57ad13215983e9020ae4f.png);
+  border-radius:50%;
+}
+#rgb{
+  background-color:grey;
+  position:relative;
+  z-index:3;
+  display:none;
+  padding:10px;
+  border-radius:5px;
+  margin-left:50px;
+}
+span{
+  color:white;
+  font-family: sans-serif;
+  font-weight:bold;
+  cursor: default;
+}
+input{
+  cursor:pointer;
+}
+#result{
+  border: 2px solid white;
+  border-radius:5px;
+  background-color:black;
+  width:190px;
+  height:30px;
+  margin-bottom:5px;
+
+}

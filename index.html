@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href = "stylesheet.css"/>
+
+
+    <title>JS Bin</title>
+  </head>
+  <body onload = "start();">
+    <div id="container">
+      <canvas id = "canvas"></canvas>
+      <div class="btn" id="draw" onclick="draw()"></div>
+      <div class="btn" id="erase" onclick="erase()"></div>
+      <div class="btn" id="clear" onclick="clearAll()"></div>
+      <div class="btn" id="color" onclick="color();"></div><br>
+      <div id="rgb">
+        <div id="result"></div>
+        <span>red &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><input type="range" value="0" id="red"/><br>
+        <span>green &nbsp&nbsp&nbsp</span><input type="range" value="0" id="green"/><br>
+
+        <span>blue
+          &nbsp&nbsp&nbsp&nbsp&nbsp</span><input type="range" value="0" id="blue"/><br>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src = "script.js"></script>
+
+  </body>
+</html>
